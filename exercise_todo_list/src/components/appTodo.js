@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { sortBy } from "lodash";
 import TaskInput from "./taskInput";
 import TaskList from "./taskList";
@@ -6,19 +6,30 @@ import TaskList from "./taskList";
 function AppTodo() {
   const [taskAr, setTaskAr] = useState([]);
 
+  useEffect(() => {
+    if (localStorage["tasks"]) {
+      setTaskAr(JSON.parse(localStorage["tasks"]));
+    }
+  }, []);
+
   const addTask = (_itemTask) => {
     let sort_ar = [...taskAr, _itemTask];
     sort_ar = sortBy(sort_ar, "time");
-    setTaskAr(sort_ar);
+    saveLocal(sort_ar);
   };
 
   const removeAllTasks = () => {
-    setTaskAr([]);
+    saveLocal([]);
   };
 
   const removeSingleTask = (_delId) => {
     let temp_ar = taskAr.filter((item) => item.id !== _delId);
-    setTaskAr(temp_ar);
+    saveLocal(temp_ar);
+  };
+
+  const saveLocal = (_ar) => {
+    localStorage.setItem("tasks", JSON.stringify(_ar));
+    setTaskAr(_ar);
   };
 
   return (

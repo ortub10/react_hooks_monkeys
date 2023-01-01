@@ -38,6 +38,14 @@ Sorting the order of tasks by time and deleting a single task
 
 ---
 
+## part 6:
+
+Saving the list in LOCAL STORAGE and retrieving it
+
+![part6](https://user-images.githubusercontent.com/102150516/210171039-8dba852c-a942-4f57-98f7-4932131dc4d6.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
