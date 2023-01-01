@@ -30,6 +30,14 @@ Displaying a task list and the list reset event
 
 ---
 
+## part 5:
+
+Sorting the order of tasks by time and deleting a single task
+
+![part5](https://user-images.githubusercontent.com/102150516/210170590-64c4f279-41ad-4a7e-9ea0-25a3c62e594c.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
