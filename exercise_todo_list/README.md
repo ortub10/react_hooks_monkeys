@@ -8,6 +8,14 @@ Exercise characterization and UI preparation
 
 ---
 
+## part 2:
+
+Design the components with bootstrap
+
+![part2](https://user-images.githubusercontent.com/102150516/210164207-74ada6d0-a994-4d4d-bef8-a27dcdf3c309.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
