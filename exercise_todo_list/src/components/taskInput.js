@@ -28,7 +28,12 @@ function TaskInput(props) {
         <button onClick={onAddTaskClick} className="btn btn-success me-2">
           Add task
         </button>
-        <button className="btn btn-danger">Reset tasks</button>
+        <button
+          onClick={() => props.removeAllTasks()}
+          className="btn btn-danger"
+        >
+          Reset tasks
+        </button>
       </div>
     </div>
   );

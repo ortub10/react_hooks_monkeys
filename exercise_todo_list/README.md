@@ -22,6 +22,14 @@ Work with STATE and event to add tasks
 
 ---
 
+## part 4:
+
+Displaying a task list and the list reset event
+
+![part4](https://user-images.githubusercontent.com/102150516/210166642-9a675f05-e4e4-4b11-a41f-bfc41e3017cd.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
