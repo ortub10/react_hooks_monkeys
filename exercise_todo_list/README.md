@@ -16,6 +16,12 @@ Design the components with bootstrap
 
 ---
 
+## part 3:
+
+Work with STATE and event to add tasks
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
