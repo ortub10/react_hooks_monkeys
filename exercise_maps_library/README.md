@@ -10,6 +10,14 @@ Connecting to the LEAFLET map
 
 ---
 
+## part 2:
+
+Map location, Marker and POP UP display
+
+![part2](https://user-images.githubusercontent.com/102150516/210265157-b3e0db75-9fef-4f80-b11f-2df4a4117fca.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
