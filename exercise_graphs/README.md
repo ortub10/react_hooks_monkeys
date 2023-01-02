@@ -28,17 +28,17 @@ Filtering information from API and adding it to the graph
 
 ## part 4:
 
-Line graph with information from REST API of stocks
+Working with a line graph
 
-![part5](https://user-images.githubusercontent.com/102150516/210238032-ca239713-8750-4d57-ac44-3e50de6513e1.png)
+![part4](https://user-images.githubusercontent.com/102150516/210235259-28e6f051-1382-48a1-b051-37e6fd726ffc.png)
 
 ---
 
 ## part 5:
 
-Working with a line graph
+Line graph with information from REST API of stocks
 
-![part4](https://user-images.githubusercontent.com/102150516/210235259-28e6f051-1382-48a1-b051-37e6fd726ffc.png)
+![part5](https://user-images.githubusercontent.com/102150516/210238032-ca239713-8750-4d57-ac44-3e50de6513e1.png)
 
 ---
 
