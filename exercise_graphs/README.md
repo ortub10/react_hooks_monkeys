@@ -8,6 +8,16 @@ Connecting to the CANVASJS graphics library
 
 ![part1](https://user-images.githubusercontent.com/102150516/210212707-a3bf02f9-e455-4603-a5e7-879d63fb62b9.png)
 
+---
+
+## part 2:
+
+Adding and editing our own information in the graph and calling the api (without displaying it in the graph for this step)
+
+![part2](https://user-images.githubusercontent.com/102150516/210216490-8366859e-f423-4611-ae50-b193db20d328.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
