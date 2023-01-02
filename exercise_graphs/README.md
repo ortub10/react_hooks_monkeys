@@ -26,6 +26,14 @@ Filtering information from API and adding it to the graph
 
 ---
 
+## part 4:
+
+Working with a line graph
+
+![part4](https://user-images.githubusercontent.com/102150516/210235259-28e6f051-1382-48a1-b051-37e6fd726ffc.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
