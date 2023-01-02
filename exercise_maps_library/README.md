@@ -18,6 +18,14 @@ Map location, Marker and POP UP display
 
 ---
 
+## part 3:
+
+Changing the graphics of the icons Displaying information on mouseover and events
+
+![part3](https://user-images.githubusercontent.com/102150516/210267615-028b3deb-2f6b-4abb-abe5-52cc06f7b703.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
