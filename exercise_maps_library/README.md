@@ -26,6 +26,14 @@ Changing the graphics of the icons Displaying information on mouseover and event
 
 ---
 
+## part 4:
+
+Creating a Jerusalem map application from JSON
+
+![part4](https://user-images.githubusercontent.com/102150516/210269939-bdd0615f-5c7a-4881-b32f-9e8e1d33b9a7.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
