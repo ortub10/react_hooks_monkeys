@@ -42,6 +42,14 @@ Address search on a map
 
 ---
 
+## part 6:
+
+Search and display the result on the map
+
+![part6](https://user-images.githubusercontent.com/102150516/210274268-51471288-006e-4c53-ba80-2b6d5a478815.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
