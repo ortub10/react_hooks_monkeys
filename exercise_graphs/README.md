@@ -18,6 +18,14 @@ Adding and editing our own information in the graph and calling the api (without
 
 ---
 
+## part 3:
+
+Filtering information from API and adding it to the graph
+
+![part3](https://user-images.githubusercontent.com/102150516/210232955-12b36123-0dec-4280-9de3-63a149254084.png)
+
+---
+
 ## Available Scripts
 
 In the project directory, you can run:

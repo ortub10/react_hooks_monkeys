@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import CanvasJSReact from "../graph_lib/canvasjs.react";
 import axios from "axios";
 const CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 function TestGraph() {
+  const [ar, setAr] = useState([]);
   useEffect(() => {
     doApi();
   }, []);
@@ -11,26 +12,33 @@ function TestGraph() {
   const doApi = async () => {
     let url = "https://restcountries.com/v2/all";
     const reas = await axios.get(url);
-    console.log(reas.data);
+    const countries_ar = [
+      "United States of America",
+      "Spain",
+      "Brazil",
+      "United Kingdom of Great Britain and Northern Ireland",
+      "France",
+    ];
+    const temp_ar = reas.data.filter((item) =>
+      countries_ar.includes(item.name)
+    );
+
+    const graph_ar = temp_ar.map((item) => {
+      if (item.name === "United States of America") {
+        item.name = "USA";
+      } else if (
+        item.name === "United Kingdom of Great Britain and Northern Ireland"
+      ) {
+        item.name = "UK";
+      }
+      return {
+        label: item.name,
+        y: item.population,
+      };
+    });
+
+    setAr(graph_ar);
   };
-  const ar = [
-    {
-      label: "Jerusalem",
-      y: 900,
-    },
-    {
-      label: "Tel aviv",
-      y: 800,
-    },
-    {
-      label: "Ramat gan",
-      y: 700,
-    },
-    {
-      label: "Netanya",
-      y: 750,
-    },
-  ];
 
   const options = {
     animationEnabled: true,
@@ -41,11 +49,11 @@ function TestGraph() {
     },
     axisY: {
       includeZero: false,
-      title: "populatin * 1000",
+      title: "populatin",
     },
 
     axisX: {
-      title: "Cities",
+      title: "Countries",
     },
     data: [
       {
